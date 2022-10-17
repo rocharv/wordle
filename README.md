@@ -59,7 +59,7 @@ Active filters:
 
 Found word(s): ['befog', 'feign', 'fogey', 'forge', 'fudge', 'fugue', 'gaffe', 'gofer', 'grief']
 
-Total found word(s):
+Total found word(s): 9
 ```
 Now we want to grab only words that begin with `f` and ends with `e`. We can accomplish that using a mask: `f@@@e`. When using masks the `@` symbol means a single-char wildcard:
 ```bash
